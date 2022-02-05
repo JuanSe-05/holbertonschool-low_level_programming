@@ -4,7 +4,7 @@
 
 /**
  *main - Entry point
- *Return: Always 0 (success) 
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	printf("last digit of %i is %i and is ", n, (n % 10));
 
 	if ((n % 10) == 0)
