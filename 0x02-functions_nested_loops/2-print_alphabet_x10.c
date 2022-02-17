@@ -16,4 +16,5 @@ int t;
 	}
 
 	_putchar('\n');
+	i++;
 }
